@@ -11,8 +11,8 @@ terraform {
   }
 }
 
-provider "google" {
 
+provider "google" {
   project = "mt-project-2022"
   region  = "us-central1"
   zone    = "us-central1-c"
