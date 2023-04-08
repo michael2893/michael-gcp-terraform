@@ -5,7 +5,7 @@ terraform {
       version = "4.51.0"
     }
   }
-   backend "gcs" {
+  backend "gcs" {
     bucket = "terraform-state-mt-project"
     prefix = "terraform/state"
   }

@@ -12,5 +12,5 @@ resource "google_storage_bucket" "my_bucket_test" {
   versioning {
     enabled = true
   }
-  force_destroy               = true
+  force_destroy = true
 }
