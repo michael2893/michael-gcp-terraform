@@ -6,7 +6,7 @@ resource "google_storage_bucket" "my_bucket" {
   }
 }
 
-resource "google_storage_bucket" "my_bucket_test" {
+resource "google_storage_bucket" "my_bucket_test_2" {
   name     = "base-mt-project"
   location = "us-east4"
   versioning {
