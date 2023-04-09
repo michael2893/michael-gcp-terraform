@@ -1,10 +1,10 @@
 variable "project_id" {
-  default = "mt-project-2022"
+  default     = "mt-project-2022"
   description = "project"
 }
 
 variable "region" {
-  default = "us-east4"
+  default     = "us-east4"
   description = "region"
 }
 
