@@ -1,7 +1,7 @@
 # Create a firewall rule to allow egress traffic
 resource "google_compute_firewall" "egress_firewall" {
   name    = "allow-egress"
-  network = google_compute_network.vpc_network.self_link
+  network = google_compute_network.vpc.self_link
 
   allow {
     protocol = "tcp"
@@ -13,7 +13,7 @@ resource "google_compute_firewall" "egress_firewall" {
 
 resource "google_compute_firewall" "ingress_firewall" {
   name    = "allow-ingress"
-  network = google_compute_network.vpc_network.self_link
+  network = google_compute_network.vpc.self_link
 
   allow {
     protocol = "tcp"
